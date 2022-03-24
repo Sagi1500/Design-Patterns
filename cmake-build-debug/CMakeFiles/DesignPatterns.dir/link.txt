@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/DesignPatterns.dir/AbstractFactory.cpp.o -o DesignPatterns 
+/usr/bin/c++ -g CMakeFiles/DesignPatterns.dir/Composite.cpp.o -o DesignPatterns 

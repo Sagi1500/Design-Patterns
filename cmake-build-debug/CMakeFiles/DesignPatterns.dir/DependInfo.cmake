@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/sagi/CLionProjects/Design Patterns/AbstractFactory.cpp" "/home/sagi/CLionProjects/Design Patterns/cmake-build-debug/CMakeFiles/DesignPatterns.dir/AbstractFactory.cpp.o"
+  "/home/sagi/CLionProjects/Design Patterns/Composite.cpp" "/home/sagi/CLionProjects/Design Patterns/cmake-build-debug/CMakeFiles/DesignPatterns.dir/Composite.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

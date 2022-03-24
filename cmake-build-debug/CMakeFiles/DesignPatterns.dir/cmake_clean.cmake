@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/DesignPatterns.dir/AbstractFactory.cpp.o"
+  "CMakeFiles/DesignPatterns.dir/Composite.cpp.o"
   "DesignPatterns"
   "DesignPatterns.pdb"
 )

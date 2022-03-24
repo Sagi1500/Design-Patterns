@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/sagi/CLionProjects/Design Patterns/AbstractFactory.cpp">
+		<Unit filename="/home/sagi/CLionProjects/Design Patterns/Composite.cpp">
 			<Option target="DesignPatterns"/>
 		</Unit>
 		<Unit filename="/home/sagi/CLionProjects/Design Patterns/CMakeLists.txt">
