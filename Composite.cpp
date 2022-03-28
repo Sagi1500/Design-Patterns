@@ -32,7 +32,7 @@ class Manager : public Employee {
 public:
     virtual void print() {
         cout << "Manager" << endl;
-        cout << "My team includes: " << endl;
+//        cout << "My team includes: " << endl;
         for_each(employeesList.begin(), employeesList.end(), [](Employee *e) {
             e->print();
         });

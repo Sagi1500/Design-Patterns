@@ -66,27 +66,27 @@ include CMakeFiles/DesignPatterns.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/DesignPatterns.dir/flags.make
 
-CMakeFiles/DesignPatterns.dir/Composite.cpp.o: CMakeFiles/DesignPatterns.dir/flags.make
-CMakeFiles/DesignPatterns.dir/Composite.cpp.o: ../Composite.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/sagi/CLionProjects/Design Patterns/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DesignPatterns.dir/Composite.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DesignPatterns.dir/Composite.cpp.o -c "/home/sagi/CLionProjects/Design Patterns/Composite.cpp"
+CMakeFiles/DesignPatterns.dir/Strategy.cpp.o: CMakeFiles/DesignPatterns.dir/flags.make
+CMakeFiles/DesignPatterns.dir/Strategy.cpp.o: ../Strategy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/sagi/CLionProjects/Design Patterns/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DesignPatterns.dir/Strategy.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DesignPatterns.dir/Strategy.cpp.o -c "/home/sagi/CLionProjects/Design Patterns/Strategy.cpp"
 
-CMakeFiles/DesignPatterns.dir/Composite.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DesignPatterns.dir/Composite.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/sagi/CLionProjects/Design Patterns/Composite.cpp" > CMakeFiles/DesignPatterns.dir/Composite.cpp.i
+CMakeFiles/DesignPatterns.dir/Strategy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DesignPatterns.dir/Strategy.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/sagi/CLionProjects/Design Patterns/Strategy.cpp" > CMakeFiles/DesignPatterns.dir/Strategy.cpp.i
 
-CMakeFiles/DesignPatterns.dir/Composite.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DesignPatterns.dir/Composite.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/sagi/CLionProjects/Design Patterns/Composite.cpp" -o CMakeFiles/DesignPatterns.dir/Composite.cpp.s
+CMakeFiles/DesignPatterns.dir/Strategy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DesignPatterns.dir/Strategy.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/sagi/CLionProjects/Design Patterns/Strategy.cpp" -o CMakeFiles/DesignPatterns.dir/Strategy.cpp.s
 
 # Object files for target DesignPatterns
 DesignPatterns_OBJECTS = \
-"CMakeFiles/DesignPatterns.dir/Composite.cpp.o"
+"CMakeFiles/DesignPatterns.dir/Strategy.cpp.o"
 
 # External object files for target DesignPatterns
 DesignPatterns_EXTERNAL_OBJECTS =
 
-DesignPatterns: CMakeFiles/DesignPatterns.dir/Composite.cpp.o
+DesignPatterns: CMakeFiles/DesignPatterns.dir/Strategy.cpp.o
 DesignPatterns: CMakeFiles/DesignPatterns.dir/build.make
 DesignPatterns: CMakeFiles/DesignPatterns.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/sagi/CLionProjects/Design Patterns/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable DesignPatterns"

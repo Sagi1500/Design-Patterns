@@ -26,7 +26,7 @@ public:
 class PlainPizza : public Pizza {
 public:
     double getCost() {
-        double price = 4.00;
+        const double price = 4.00;
         std::cout << "Cost of Dough: " << price << std::endl;
         return price;
     };
@@ -59,7 +59,7 @@ public:
     }
 
     double getCost() override {
-        double price = 1.5;
+        const double price = 1.5;
         std::cout << "Cost of Tomato sauce: " << price << std::endl;
         return tempPizza->getCost() + price;
     }
@@ -77,7 +77,7 @@ public:
     }
 
     double getCost() override {
-        double price = 0.75;
+        const double price = 0.75;
         std::cout << "Cost of Mozzarella: " << price << std::endl;
         return tempPizza->getCost() + price;
     }
@@ -96,7 +96,7 @@ public:
     }
 
     double getCost() {
-        double price = 0.5;
+        const double price = 0.5;
         std::cout << "Cost of Tomato sauce: " << price << std::endl;
         return tempPizza->getCost() + price;
     }

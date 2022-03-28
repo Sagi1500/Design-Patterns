@@ -6,11 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/sagi/CLionProjects/Design Patterns/Composite.cpp
+/home/sagi/CLionProjects/Design Patterns/Strategy.cpp
 iostream
--
-list
--
-algorithm
 -
 

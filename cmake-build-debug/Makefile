@@ -129,29 +129,29 @@ DesignPatterns/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPatterns.dir/build.make CMakeFiles/DesignPatterns.dir/build
 .PHONY : DesignPatterns/fast
 
-Composite.o: Composite.cpp.o
-.PHONY : Composite.o
+Strategy.o: Strategy.cpp.o
+.PHONY : Strategy.o
 
 # target to build an object file
-Composite.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPatterns.dir/build.make CMakeFiles/DesignPatterns.dir/Composite.cpp.o
-.PHONY : Composite.cpp.o
+Strategy.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPatterns.dir/build.make CMakeFiles/DesignPatterns.dir/Strategy.cpp.o
+.PHONY : Strategy.cpp.o
 
-Composite.i: Composite.cpp.i
-.PHONY : Composite.i
+Strategy.i: Strategy.cpp.i
+.PHONY : Strategy.i
 
 # target to preprocess a source file
-Composite.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPatterns.dir/build.make CMakeFiles/DesignPatterns.dir/Composite.cpp.i
-.PHONY : Composite.cpp.i
+Strategy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPatterns.dir/build.make CMakeFiles/DesignPatterns.dir/Strategy.cpp.i
+.PHONY : Strategy.cpp.i
 
-Composite.s: Composite.cpp.s
-.PHONY : Composite.s
+Strategy.s: Strategy.cpp.s
+.PHONY : Strategy.s
 
 # target to generate assembly for a file
-Composite.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPatterns.dir/build.make CMakeFiles/DesignPatterns.dir/Composite.cpp.s
-.PHONY : Composite.cpp.s
+Strategy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPatterns.dir/build.make CMakeFiles/DesignPatterns.dir/Strategy.cpp.s
+.PHONY : Strategy.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... DesignPatterns"
-	@echo "... Composite.o"
-	@echo "... Composite.i"
-	@echo "... Composite.s"
+	@echo "... Strategy.o"
+	@echo "... Strategy.i"
+	@echo "... Strategy.s"
 .PHONY : help
 
 
