@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/DesignPatterns.dir/Strategy.cpp.o"
+  "CMakeFiles/DesignPatterns.dir/Interpreter.cpp.o"
   "DesignPatterns"
   "DesignPatterns.pdb"
 )

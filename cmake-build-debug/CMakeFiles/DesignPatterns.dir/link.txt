@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/DesignPatterns.dir/Strategy.cpp.o -o DesignPatterns 
+/usr/bin/c++ -g CMakeFiles/DesignPatterns.dir/Interpreter.cpp.o -o DesignPatterns 

@@ -129,29 +129,29 @@ DesignPatterns/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPatterns.dir/build.make CMakeFiles/DesignPatterns.dir/build
 .PHONY : DesignPatterns/fast
 
-Strategy.o: Strategy.cpp.o
-.PHONY : Strategy.o
+Interpreter.o: Interpreter.cpp.o
+.PHONY : Interpreter.o
 
 # target to build an object file
-Strategy.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPatterns.dir/build.make CMakeFiles/DesignPatterns.dir/Strategy.cpp.o
-.PHONY : Strategy.cpp.o
+Interpreter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPatterns.dir/build.make CMakeFiles/DesignPatterns.dir/Interpreter.cpp.o
+.PHONY : Interpreter.cpp.o
 
-Strategy.i: Strategy.cpp.i
-.PHONY : Strategy.i
+Interpreter.i: Interpreter.cpp.i
+.PHONY : Interpreter.i
 
 # target to preprocess a source file
-Strategy.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPatterns.dir/build.make CMakeFiles/DesignPatterns.dir/Strategy.cpp.i
-.PHONY : Strategy.cpp.i
+Interpreter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPatterns.dir/build.make CMakeFiles/DesignPatterns.dir/Interpreter.cpp.i
+.PHONY : Interpreter.cpp.i
 
-Strategy.s: Strategy.cpp.s
-.PHONY : Strategy.s
+Interpreter.s: Interpreter.cpp.s
+.PHONY : Interpreter.s
 
 # target to generate assembly for a file
-Strategy.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPatterns.dir/build.make CMakeFiles/DesignPatterns.dir/Strategy.cpp.s
-.PHONY : Strategy.cpp.s
+Interpreter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPatterns.dir/build.make CMakeFiles/DesignPatterns.dir/Interpreter.cpp.s
+.PHONY : Interpreter.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... DesignPatterns"
-	@echo "... Strategy.o"
-	@echo "... Strategy.i"
-	@echo "... Strategy.s"
+	@echo "... Interpreter.o"
+	@echo "... Interpreter.i"
+	@echo "... Interpreter.s"
 .PHONY : help
 
 
